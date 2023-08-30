@@ -10,4 +10,9 @@ body{
   justify-content: center;
   align-items: center;
   margin: 0;
+  font-size: xx-large;
+}
+
+button{
+  font-size: xx-large;
 }
