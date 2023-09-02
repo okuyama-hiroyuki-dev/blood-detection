@@ -29,7 +29,7 @@ ele3.addEventListener('click', async (event) => {
 
   characteristic.addEventListener('characteristicvaluechanged', event => {
     const value = event.target.value.getInt16(0, true);
-    if(value < 500){
+    if(value < 600){
       ele1.hidden = false;
       ele2.hidden = true;
       ele3.hidden = true;
